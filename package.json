@@ -1,0 +1,8 @@
+{
+  "name": "bdd-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gavinhenderson/bdd-example",
+  "author": "Gavin Henderson <gavin.henderson@hotmail.co.uk>",
+  "license": "MIT"
+}
