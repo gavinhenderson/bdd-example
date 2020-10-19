@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/gavinhenderson/bdd-example",
   "author": "Gavin Henderson <gavin.henderson@hotmail.co.uk>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0"
+  }
 }
