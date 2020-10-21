@@ -1,15 +1,20 @@
 // features/support/steps.js
 const { Given, When, Then } = require("@cucumber/cucumber");
 const assert = require("assert").strict;
+const { add } = require("../../src");
 
-Given("a variable set to {int}", function (number) {
-  this.setTo(number);
+Given("x is set to {int}", function (x) {
+  this.x = x;
 });
 
-When("I increment the variable by {int}", function (number) {
-  this.incrementBy(number);
+Given("y is set to {int}", function (y) {
+  this.y = y;
 });
 
-Then("the variable should contain {int}", function (number) {
-  assert.equal(this.variable, number);
+When("I add x and y", function () {
+  this.result = add(this.x, this.y);
+});
+
+Then("the result is {int}", function (int) {
+  assert.equal(this.result, int);
 });
