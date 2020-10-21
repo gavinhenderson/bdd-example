@@ -1,4 +1,3 @@
-// features/support/steps.js
 const { Given, When, Then } = require("@cucumber/cucumber");
 const assert = require("assert").strict;
 const { add } = require("../../src");
