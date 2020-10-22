@@ -6,7 +6,8 @@
   "author": "Gavin Henderson <gavin.henderson@hotmail.co.uk>",
   "license": "MIT",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js"
+    "test": "./node_modules/.bin/cucumber-js",
+    "test:publish": "./node_modules/.bin/cucumber-js --publish --no-strict"
   },
   "dependencies": {
     "@cucumber/cucumber": "^7.0.0-rc.0"
