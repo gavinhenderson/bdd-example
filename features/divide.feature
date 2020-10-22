@@ -1,3 +1,4 @@
+@calculator @divide
 Feature: Divide
   In order to do maths
   As a developer

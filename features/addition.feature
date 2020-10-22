@@ -1,3 +1,4 @@
+@calculator @addition
 Feature: Addition
   In order to do maths
   As a developer

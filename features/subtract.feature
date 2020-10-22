@@ -1,3 +1,4 @@
+@calculator @subtract
 Feature: Subtract
   In order to do maths
   As a developer

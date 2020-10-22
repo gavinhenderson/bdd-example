@@ -22,6 +22,10 @@ When("I divide x by y", function () {
   return "pending";
 });
 
+When("I multiply x and y", function () {
+  return "pending";
+});
+
 Then("the result is {int}", function (int) {
   assert.equal(this.result, int);
 });
