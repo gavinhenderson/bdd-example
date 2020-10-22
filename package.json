@@ -7,9 +7,15 @@
   "license": "MIT",
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js",
+    "test:watch": "node ./watch-tests",
     "test:publish": "./node_modules/.bin/cucumber-js --publish --no-strict"
   },
   "dependencies": {
     "@cucumber/cucumber": "^7.0.0-rc.0"
+  },
+  "devDependencies": {
+    "chokidar": "^3.4.3",
+    "cross-spawn": "^7.0.3",
+    "debounce": "^1.2.0"
   }
 }
